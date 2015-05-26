@@ -28,6 +28,9 @@ public class DemoKolekcije {
 		
 		System.out.println("MAX: " + mapa.get("max"));
 		
+		mapa.keySet().iterator(); // ovako se iteriraju kljucevi
+		mapa.values().iterator(); // ovako se iteriraju vrednosti
+		
 	}
 
 }
