@@ -1,6 +1,7 @@
 package kolekcije;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 
 public class DemoKolekcije {
@@ -18,6 +19,14 @@ public class DemoKolekcije {
 		while(iterator.hasNext()) {
 			String element = iterator.next();
 		}
+		
+		
+		
+		HashMap<String, Integer> mapa = new HashMap(); // <kljuc, vrednost>
+		mapa.put("max", 1000);
+		mapa.put("min", 1);
+		
+		System.out.println("MAX: " + mapa.get("max"));
 		
 	}
 
